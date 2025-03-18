@@ -1,7 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0 16px;
+  margin: 0 auto;
+  padding: 0 16px; /* Adds 16px padding on left & right */
+  background-color: #fff;
+  max-width: 100%;
 }
+
 .slider-container {
   position: relative;
   width: 100%;
@@ -10,6 +19,7 @@ body {
   aspect-ratio: 16 / 8; /* Maintain aspect ratio while keeping images proportional */
   overflow: hidden;
   user-select: none;
+  border: 2px solid #72af2e;
 }
 .slider-header {
   width: 100%;
@@ -21,7 +31,7 @@ body {
   align-items: center;
   color: white;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 300;
   border-radius: 16px 16px 0 0;
 }
 .slider-header span {
@@ -85,7 +95,8 @@ body {
 .slider-description {
   margin-top: 20px;
   font-size: 16px;
-  color: white;
+  color: rgb(107, 107, 107);
   text-align: center;
   max-width: 900px;
+  font-weight: 400;
 }
