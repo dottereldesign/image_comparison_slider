@@ -2,6 +2,7 @@ const sliderBefore = document.querySelector(".slider-before");
 const sliderAfter = document.querySelector(".slider-after");
 const sliderHandle = document.querySelector(".slider-handle");
 const sliderContainer = document.querySelector(".slider-container");
+
 let isDragging = false;
 
 const updateSlider = (e) => {
