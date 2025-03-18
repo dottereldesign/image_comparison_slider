@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hail - Before & After Image Slider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-900"
+  >
+    <div class="slider-header">
+      <span>Before</span>
+      <span>After</span>
+    </div>
+    <div class="slider-container relative">
+      <div class="slider-wrapper">
+        <div class="slider-after">
+          <img
+            src="https://d2u4q3iydaupsp.cloudfront.net/uploads/2000-constrained-09850d21-1230-4ea7-b466-99390765a063"
+            alt="New Website"
+          />
+        </div>
+        <div class="slider-before">
+          <img
+            src="https://d2u4q3iydaupsp.cloudfront.net/uploads/2000-constrained-cb771be2-cbb7-47f0-aba5-043da9fc5745"
+            alt="Old Website"
+          />
+        </div>
+        <div class="slider-handle"></div>
+      </div>
+    </div>
+    <p class="slider-description">
+      Drag the middle handle left or right to compare the before and after
+      versions of the website.
+    </p>
+    <script src="js/script.js"></script>
+  </body>
+</html>
